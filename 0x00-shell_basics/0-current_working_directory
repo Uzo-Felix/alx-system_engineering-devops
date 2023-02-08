@@ -1,1 +1,3 @@
-#!/bin/bash\necho "pwd"
+#!/bin/bash\n
+
+$pwd
