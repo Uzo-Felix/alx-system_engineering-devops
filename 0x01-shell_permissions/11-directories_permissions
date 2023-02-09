@@ -1,0 +1,2 @@
+#!/bin/bash
+for dir in $(find . -type d); do chmod +x $dir; done
