@@ -1,2 +1,2 @@
-#!bin/bash
-file -bi "/tmp/iamafile" | awk -F ";" "{print $1}" || echo "The file does not exist."
+#!/bin/bash
+file -bi "/tmp/iamafile" | awk -F";""{print $1}" || echo "The file does not exist."
