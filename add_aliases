@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Open .bash_aliases in vi for editing
+vi ~/.bash_aliases <<EOF
+i
+# Add your aliases here
+alias web-01='ssh -i ~/.ssh/school ubuntu@100.23.38.2'
+alias web-02='ssh -i ~/.ssh/school ubuntu@34.232.68.146'
+alias lb-01='ssh -i ~/.ssh/school ubuntu@18.206.208.54'
+# Press Esc, then type :wq and press Enter to save and quit
+:wq
+EOF
+
+# Source the ~/.bash_aliases file to make the aliases available in the current session
+source ~/.bash_aliases
+
+echo "Aliases added to ~/.bash_aliases"
+
