@@ -15,4 +15,3 @@ EOF
 source ~/.bash_aliases
 
 echo "Aliases added to ~/.bash_aliases"
-
